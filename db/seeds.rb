@@ -2,10 +2,11 @@ users_count = 100
 ip_addresses_count = 50
 posts_count = 200000
 ratings_count = 200000
-rating_range = (1..5)
 use_controllers_code = false
 
+
 slice_size = 16000
+rating_range = (1..5)
 
 tables = %w(users posts ratings statistics ip_addresses)
 sql_query = "TRUNCATE #{tables.join(',')} RESTART IDENTITY"

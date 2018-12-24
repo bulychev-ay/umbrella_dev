@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="myapp_development@localhost" uuid="79cda0b5-0065-4a33-8ee8-7fa4343c8735">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="79cda0b5-0065-4a33-8ee8-7fa4343c8735">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails umbrellio_dev: development" uuid="c7333e86-b429-4b27-a666-f5b2e208ba67">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/myapp_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails umbrellio_dev: test" uuid="5645ab33-d05a-46e1-9315-e92393417a82">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/myapp_test</jdbc-url>
     </data-source>
   </component>
 </project>
